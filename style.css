@@ -1,0 +1,174 @@
+@font-face {
+    src: url('fonts/Cabin-Regular.ttf');
+    font-family: font-roboto;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: font-roboto;
+}
+
+html {
+    background-color: rgb(255, 253, 250);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+.navbar {
+    display: inline-block;
+    background-color: rgb(101, 88, 73);
+    padding: 1vh;
+    height: 100vh;
+    position: fixed;
+}
+
+.title {
+    padding: 1vw;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 250, 243);
+    background-color: rgb(148, 127, 103);
+    border-radius: 25px;
+    margin-top: 4vh;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    padding: 1vh;
+    margin-top: 7vh;
+}
+
+.text {
+    display: flex;
+    font-size: 24px;
+    padding: 1vh;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(255, 249, 240);
+    transition: all, 200ms;
+}
+
+.text:hover {
+    background-color: bisque;
+    color: black;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social_app {
+    background-color: rgb(148, 127, 103);
+    padding: 1vh;
+    border-radius: 10px;
+    font-size: 32px;
+    color: rgb(255, 249, 240);
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10vh;
+    padding-bottom: 0;
+}
+
+.content-title {
+    font-size: 60px;
+    padding-top: 5vh;
+    margin-left: 1vw;
+    margin-bottom: 5vh;
+    color:darkred ;
+}
+
+.content-explanation {
+    font-size: 32px;
+}
+
+.content-materi {
+    width: 55vw;
+}
+
+.image-rukun {
+    border-radius: 20px;
+    height: 25vh;
+    border: 5px solid rgb(154, 142, 125);
+    margin: 4vh;
+    margin-bottom: 10px;
+}
+
+.source-image {
+    margin-left: 4vh;
+    font-size: 20px;
+}
+
+.pengertian-rukun-islam {
+    color: darkcyan;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////// */
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50vw;
+}
+
+.reference-text {
+    font-size: 18px;
+    margin: 0.5vh;
+}
+
+.reference-items {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-tag {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
