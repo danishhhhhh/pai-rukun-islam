@@ -136,7 +136,7 @@ html {
 .reference {
     display: flex;
     flex-direction: column;
-    margin-right: 50vw;
+    margin-right: 30vw;
 }
 
 .reference-text {
